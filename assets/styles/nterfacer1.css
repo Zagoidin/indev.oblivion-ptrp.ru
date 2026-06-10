@@ -1,0 +1,54 @@
+@import 'fonts.css';
+#UI {
+    z-index:            20;
+    position:           fixed;
+    width:              96vw;
+    height:             96vh;
+    margin:             0;
+    box-sizing:         border-box;
+
+    display:            flex;
+    flex-direction:     column;
+
+    top:                2vh;
+    left:               2vw;
+
+    border:             2px solid red;
+    border-image:       linear-gradient(20deg, white 20%, rgba(255, 255, 255, 0.3), white 80%) 1;
+
+    padding:            0.5%;
+    gap:                0.5%;
+
+    box-shadow:         0 0 4px 40vW rgba(0, 0, 0, 0.6);
+    font-family:        mono;
+}
+#UI > ul {
+    display:            flex;
+    flex-direction:     row;
+
+    height:             2%;
+    min-height:         20px;
+
+    margin:             0;
+
+    background:         linear-gradient(10deg, white, rgba(255, 255, 255, 0.8), white 80%);
+    color:              black;
+}
+#UI > ul > li {
+    display:            block;
+    width:              32%;
+
+    text-align:         center;
+
+    cursor:             not-allowed;
+}
+uidivider {
+    flex-grow:          1;
+    border:             1px solid rgba(255, 255, 255, 0.05);
+}
+uihead {
+    text-shadow:        0 0 10px black;
+    background-color:   rgba(22, 21, 21, 0.4);
+    width:              fit-content;
+    cursor:             pointer;
+}

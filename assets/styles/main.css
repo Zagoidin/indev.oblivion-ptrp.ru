@@ -1,0 +1,30 @@
+@import 'fonts.css';
+@import 'var.css';
+body {
+    color:              white;
+    background-color:   var(--bg);
+    margin:             0;
+}
+
+
+
+
+/* Русское Поле Экспериментов */
+
+dialog-nametag {
+    font-family:        eno;
+    font-size:          32px;
+    display:            flex;
+    align-items:        center;
+    gap:                8px;
+    color:              var(--accent);
+    max-width:          90vw;
+    margin-inline:      auto;
+    margin-top:         20px;
+}
+dialog-nametag::before, dialog-nametag::after {
+    content:            "";
+    flex-grow:          1;
+    height:             1px;
+    background-color:   rgb(255, 255, 255);
+}

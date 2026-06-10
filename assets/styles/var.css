@@ -1,0 +1,6 @@
+:root {
+    --bg:               rgb(22, 21, 21);
+    --border:           rgb(65, 65, 65);
+    --accent:           rgb(194, 61, 31);
+    --accent-gradient:  linear-gradient(rgb(194, 61, 31), rgb(247, 140, 0));
+}
