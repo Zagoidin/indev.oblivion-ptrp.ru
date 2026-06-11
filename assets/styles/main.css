@@ -41,6 +41,15 @@ header > h2 {
     background-size:    100% auto;
 }
 
+#divider-tape {
+    background:         url(../pics/tapedivider.png);
+    width:              100vw;
+    margin:             0;
+    height:             12vh;
+    transform:          translate(0, -8vh);
+    background-size:    cover;
+    /* image-rendering:    crisp-edges; */
+}
 
 /* Русское Поле Экспериментов */
 
