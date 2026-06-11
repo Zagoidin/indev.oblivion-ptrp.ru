@@ -12,7 +12,8 @@ body {
 }
 
 header{
-    height:             100vh;
+    height:             95vh;
+    max-height:         56.25vw;
     width:              100vw;
     text-align:         center;
     display:            flex;

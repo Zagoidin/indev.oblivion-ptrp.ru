@@ -32,3 +32,7 @@
 	font-family: "kraft";
 	src: url("../fonts/Kraft.otf");
 }
+@font-face{
+	font-family: "slifted";
+	src: url("../fonts/slifted.otf");
+}
