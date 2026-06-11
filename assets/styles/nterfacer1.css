@@ -21,6 +21,7 @@
 
     box-shadow:         0 0 4px 40vW rgba(0, 0, 0, 0.6);
     font-family:        mono;
+    pointer-events:     none;
 }
 #UI > ul {
     display:            flex;
@@ -39,7 +40,7 @@
     display:            block;
     width:              32%;
     font-size:          0.8cqw;
-
+    pointer-events:     all;
     text-align:         center;
 
     cursor:             pointer;
@@ -58,6 +59,7 @@ uihead {
     width:              fit-content;
     cursor:             pointer;
     font-size:          1cqw;
+    pointer-events:     all;
 }
 #popupf11 {
   font-size:      1cqw;

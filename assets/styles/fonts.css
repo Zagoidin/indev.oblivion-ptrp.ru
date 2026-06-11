@@ -36,3 +36,7 @@
 	font-family: "slifted";
 	src: url("../fonts/slifted.otf");
 }
+@font-face{
+	font-family: "unbounded";
+	src: url("../fonts/unbounded.ttf");
+}

@@ -50,23 +50,57 @@ header > h2 {
     background-size:    cover;
     /* image-rendering:    crisp-edges; */
 }
-
-/* Русское Поле Экспериментов */
-
-dialog-nametag {
-    font-family:        eno;
-    font-size:          32px;
-    display:            flex;
-    align-items:        center;
-    gap:                8px;
-    color:              var(--accent);
-    max-width:          90vw;
+main {
+    width:              95vw;
+    margin:             0;
+    margin-top:         -12vh;
     margin-inline:      auto;
-    margin-top:         20px;
 }
-dialog-nametag::before, dialog-nametag::after {
-    content:            "";
+h1 {
+    font-family:        unbounded;
+    margin:             1cqw;
+    font-size:          2.3cqw;
+}
+.about {
+    width:              94vw;
+    margin-inline:      auto;
+}
+.about > p {
+    height:             30vh;
+    width:              67%;
+    border-inline:      0.2cqw dashed rgb(12, 12, 12);
+}
+.fracs {
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    space-between;
+    height:             30vh;
+}
+.fracs>div {
     flex-grow:          1;
-    height:             1px;
-    background-color:   rgb(255, 255, 255);
+    width:              50%;
+    transition:         all 1s;
+}
+.fracs>h3 {
+    width:              10%;
+    height:             10vh;
+    margin-top:         10vh;
+    font-family:        zozh;        
+    font-size:          3cqw;
+    text-align:         center;
+    color:              rgb(119, 119, 119);
+}
+.fracs > div:hover {
+    width:                  67%;
+}
+#phobos {
+    background:         linear-gradient(to right, rgb(25, 9, 40), transparent);
+    text-align:         left;
+    padding-left:       2vw;
+    Font-family:        mono;
+}
+#offsprings {
+    background:         linear-gradient(to left, rgb(7, 18, 36), transparent);
+    text-align:         right;
+    padding-right:      2vw;
 }
