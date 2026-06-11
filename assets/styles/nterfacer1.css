@@ -43,6 +43,10 @@
     text-align:         center;
 
     cursor:             pointer;
+    transition:         color 0.3 ease;
+}
+#UI > ul > li:hover     {
+    color:              rgb(168, 0, 42);
 }
 uidivider {
     flex-grow:          1;

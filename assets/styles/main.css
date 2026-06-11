@@ -12,8 +12,8 @@ body {
 }
 
 header{
+    height:             100vh;
     width:              100vw;
-    aspect-ratio:       16 / 7;
     text-align:         center;
     display:            flex;
     flex-direction:     column;
@@ -37,7 +37,7 @@ header > h2 {
 
 .chapter-0 {
     background:         url(../pics/bgch0.png);
-    background-size:    cover;
+    background-size:    100% auto;
 }
 
 
