@@ -2,17 +2,14 @@
 	font-family: "oldsov";
 	src: url("../fonts/oldsov.otf");
 }
-
 @font-face{
 	font-family: "mono";
 	src: url("../fonts/mono.ttf") format("truetype");
 }
-
 @font-face{
 	font-family: "patebold";
 	src: url("../fonts/patebold.otf");
 }
-
 @font-face{
 	font-family: "zozh";
 	src: url("../fonts/zozh.ttf") format("truetype");
@@ -30,4 +27,8 @@
 @font-face{
 	font-family: "eno";
 	src: url("../fonts/eno.ttf") format("truetype");
+}
+@font-face{
+	font-family: "kraft";
+	src: url("../fonts/Kraft.otf");
 }

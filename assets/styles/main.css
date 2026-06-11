@@ -1,12 +1,44 @@
 @import 'fonts.css';
 @import 'var.css';
+
+::selection {
+  background-color: rgba(141, 0, 35, 0.7);
+}
+
 body {
     color:              white;
-    background-color:   var(--bg);
+    background-color:   black;
     margin:             0;
 }
 
+header{
+    width:              100vw;
+    aspect-ratio:       16 / 7;
+    text-align:         center;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    gap:                1cqw;
+}
 
+header > h1 {
+    font-family:        kraft;
+    color:              rgba(255, 255, 255, 0.95);
+    font-size:          18cqw;
+    margin:             0;
+}
+
+header > h2 {
+    font-family:        mono;
+    color:              rgba(255, 255, 255, 0.95);
+    font-size:          2cqw;
+    margin:             0;
+}
+
+.chapter-0 {
+    background:         url(../pics/bgch0.png);
+    background-size:    cover;
+}
 
 
 /* Русское Поле Экспериментов */
