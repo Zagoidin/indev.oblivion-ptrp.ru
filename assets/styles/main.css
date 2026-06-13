@@ -45,15 +45,15 @@ header > h2 {
     background:         url(../pics/tapedivider.png);
     width:              100vw;
     margin:             0;
-    height:             12vh;
-    transform:          translate(0, -8vh) rotate(1deg);
+    height:             6vw;
+    transform:          translate(0, -4vw) rotate(1deg);
     background-size:    cover;
     /* image-rendering:    crisp-edges; */
 }
 main {
     width:              95vw;
     margin:             0;
-    margin-top:         -12vh;
+    margin-top:         -6vw;
     margin-inline:      auto;
 }
 h1 {
@@ -64,11 +64,16 @@ h1 {
 .about {
     width:              94vw;
     margin-inline:      auto;
+    margin-bottom:      0;
 }
 .about > p {
-    height:             30vh;
+    height:             12vw;
     width:              67%;
     border-inline:      0.2cqw dashed rgb(12, 12, 12);
+    font-size:          1.2cqw;
+    font-family:        mono;
+    padding-inline:     2cqw;
+    box-sizing:         border
 }
 .fracs {
     display:            flex;
@@ -92,8 +97,8 @@ h1 {
 }
 .fracs>h3 {
     width:              10%;
-    height:             10vh;
-    margin-top:         10vh;
+    height:             6vw;
+    margin-top:         5vw;
     font-family:        zozh;        
     font-size:          3cqw;
     text-align:         center;
@@ -112,17 +117,24 @@ h1 {
     padding-left:       2vw;
     font-family:        mono;
 }
+#phobos:hover {
+    background-size:        auto, auto 130%;
+}
 #offsprings {
     background:         linear-gradient(to left, rgb(7, 18, 36), transparent), 
                         url(../pics/offsprings-beta-logo.png);
-    background-size:    auto, auto 120%;
+    background-size:    auto, auto 110%;
     background-repeat:  no-repeat;
     background-position:center;
     text-align:         right;
     font-family:        oldsov;
 }
+#offsprings:hover {
+    background-size:        auto, auto 120%;
+}
 #offsprings > h2 {
     font-size:          1.6cqw;
+    margin-right:       2vw;
 }
 #offsprings > p {
     font-size:          0.8cqw;
@@ -131,7 +143,7 @@ h1 {
     margin-top:         2.3cqw;
 }
 .npcs {
-    height:             34vh;
+    height:             16vw;
     width:              90vw;
 }
 .npcs>ul {
@@ -179,11 +191,24 @@ h1 {
 }
 .npcs>ul>li.offspringsnpc {
     border:             0.2cqw solid rgb(20, 37, 58);
+    background-color:   rgb(16, 21, 26);
 }
 .npcs>ul>li.phobosnpc {
     border:             0.2cqw solid rgb(31, 20, 58);
+    background-color:   rgb(20, 14, 31);
 }
 .npcimg {
     height:             60%;
     margin-inline:      auto;      
+}       
+.npcs > h4 {
+    width:              40%;
+    font-family:        mono;
+    font-size:          0.7cqw;
+    color:              rgb(40, 40, 40);
+    padding-left:       2cqw;          
+    text-align:         left;
+    margin:             0;
+    position:           absolute;   
+    transform:          translate(0, -1cqw);
 }
