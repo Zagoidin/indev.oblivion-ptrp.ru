@@ -10,7 +10,9 @@ body {
     background-color:   black;
     margin:             0;
 }
-
+ul {
+    list-style-type:    none;
+}
 header{
     height:             95vh;
     max-height:         56.25vw;
@@ -155,7 +157,6 @@ h1 {
     scrollbar-color:    rgb(15, 15, 15) black;
     scrollbar-width:    auto;
     scrollbar-gutter:   stable both-edges;
-    list-style-type:    none;
     gap:                1%;
     justify-content:    space-around;
     align-items:        center;
@@ -211,4 +212,7 @@ h1 {
     margin:             0;
     position:           absolute;   
     transform:          translate(0, -1cqw);
+}
+.articles {
+    margin-top:         6%;
 }
